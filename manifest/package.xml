@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ScratchOrgAlertExecutor</members>
+        <members>ScratchOrgAlertScheduler</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Scratch_Org_Alert</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Scratch_Org_Alert_Settings</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Scratch_Org_Alert</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>User.Scratch_Org_Alert_Duration__c</members>
+        <members>User.Scratch_Org_Alert_Enabled__c</members>
+        <members>User.Scratch_Org_Alert_Recipient__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>unfiled$public/ScratchOrgAlert</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomLabels</name>
+    </types>
+    <version>43.0</version>
+</Package>

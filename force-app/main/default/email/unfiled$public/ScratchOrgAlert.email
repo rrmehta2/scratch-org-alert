@@ -1,0 +1,5 @@
+<messaging:emailTemplate subject="Scratch Org Alert: Your Scratch Org(s) are about to expire soon" recipientType="User" relatedToType="ActiveScratchOrg">
+    <messaging:htmlEmailBody >
+        
+    </messaging:htmlEmailBody>
+</messaging:emailTemplate>

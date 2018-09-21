@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>alarmblue</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Notifies you when your Scratch Orgs are about to expire.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Scratch Org Alert</label>
+    <navType>Standard</navType>
+    <tabs>standard-ActiveScratchOrg</tabs>
+    <tabs>Scratch_Org_Alert_Settings</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Scratch_Org_Alert_UtilityBar</utilityBar>
+</CustomApplication>
