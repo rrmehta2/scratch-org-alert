@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ScratchOrgAlertEmail__c</fullName>
+    <description>The alert email that this email item is a part of.</description>
+    <externalId>false</externalId>
+    <label>Scratch Org Alert Email</label>
+    <referenceTo>ScratchOrgAlertEmail__c</referenceTo>
+    <relationshipLabel>Scratch Org Alert Email Items</relationshipLabel>
+    <relationshipName>Scratch_Org_Alert_Email_Items</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

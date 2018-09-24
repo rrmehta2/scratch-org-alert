@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Customize how Scratch Org expiration alerts are delivered.</description>
-    <flexiPage>User_Settings</flexiPage>
-    <label>Scratch Org Alert Settings</label>
+    <flexiPage>ScratchOrgUserSettings</flexiPage>
+    <label>Alert Settings</label>
     <mobileReady>false</mobileReady>
     <motif>Custom67: Gears</motif>
 </CustomTab>

@@ -1,37 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ScratchOrgAlertExecutor</members>
-        <members>ScratchOrgAlertExecutorTest</members>
+        <members>ScratchOrgAlert</members>
+        <members>ScratchOrgAlertTest</members>
+        <members>ScratchOrgAlertEmailer</members>
+        <members>ScratchOrgAlertEmailerTest</members>
         <members>ScratchOrgAlertScheduler</members>
         <members>ScratchOrgAlertSchedulerTest</members>
+        <members>ScratchOrgAlertSettingsController</members>
+        <members>ScratchOrgAlertSettingsControllerTest</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Scratch_Org_Alert</members>
+        <members>ScratchOrgAlertSettings</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>ScratchOrgAlertDaysChanged</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>ScratchOrgAlert</members>
         <name>CustomApplication</name>
     </types>
     <types>
-        <members>Scratch_Org_Alert_Settings</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>Scratch_Org_Alert</members>
-        <name>PermissionSet</name>
-    </types>
-    <types>
-        <members>User.Scratch_Org_Alert_Duration__c</members>
-        <members>User.Scratch_Org_Alert_Enabled__c</members>
-        <members>User.Scratch_Org_Alert_Recipient__c</members>
+        <members>User.ScratchOrgAlertEnabled__c</members>
+        <members>User.ScratchOrgAlertNotificationDays__c</members>
+        <members>User.ScratchOrgAlertRecipient__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>ScratchOrgAlertEmail__c</members>
+        <members>ScratchOrgAlertEmailItem__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>ScratchOrgAlertSettings</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>unfiled$public/ScratchOrgAlert</members>
         <name>EmailTemplate</name>
     </types>
     <types>
-        <members>*</members>
-        <name>CustomLabels</name>
+        <members>ScratchOrgAlert</members>
+        <name>PermissionSet</name>
     </types>
     <version>43.0</version>
 </Package>

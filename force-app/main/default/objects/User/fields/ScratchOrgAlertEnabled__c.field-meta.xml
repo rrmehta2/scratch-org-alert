@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Scratch_Org_Alert_Enabled__c</fullName>
+    <fullName>ScratchOrgAlertEnabled__c</fullName>
     <defaultValue>false</defaultValue>
     <description>Allows a user to opt into receiving Scratch Org expiration alerts.</description>
     <externalId>false</externalId>

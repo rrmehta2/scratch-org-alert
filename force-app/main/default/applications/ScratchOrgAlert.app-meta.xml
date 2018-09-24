@@ -12,7 +12,6 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Scratch Org Alert</label>
     <navType>Standard</navType>
-    <tabs>standard-ActiveScratchOrg</tabs>
     <tabs>ScratchOrgAlertSettings</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Scratch_Org_Alert_UtilityBar</utilityBar>

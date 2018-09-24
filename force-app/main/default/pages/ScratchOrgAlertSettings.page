@@ -1,0 +1,35 @@
+<apex:page id="settingsPage" controller="ScratchOrgAlertSettingsController">
+    <script type="text/javascript">
+        function disableUserSave() {
+          var save = document.getElementById('{!$Component.settingsPage.userSettingsForm.pageBlockForm.saveSection.saveButton}');
+          save.disabled = true;
+          save.style.opacity = .65;
+          save.blur();
+        }
+        function enableUserSave() {
+          var save = document.getElementById('{!$Component.settingsPage.userSettingsForm.pageBlockForm.saveSection.saveButton}');
+          save.disabled = false;
+          save.style.opacity = 1;
+        }
+    </script>
+
+    <apex:form id="userSettingsForm">
+        <apex:pageBlock id="pageBlockForm" title="{!$Label.ScratchOrgAlertEditSettings}">
+            <apex:pageBlockSection >
+                <apex:inputCheckbox label="{! $Label.ScratchOrgAlertEnabled }" value="{! User.ScratchOrgAlertEnabled__c  }" onClick="enableUserSave()"/>
+            </apex:pageBlockSection>
+
+            <apex:pageBlockSection >
+                <apex:inputField label="{! $Label.ScratchOrgAlertRecipient }" value="{! User.ScratchOrgAlertRecipient__c }" style="width: 270px" onkeyup="enableUserSave()"/>
+            </apex:pageBlockSection>
+
+            <apex:pageBlockSection >
+                <apex:inputField label="{! $Label.ScratchOrgAlertNotificationDays }" value="{! User.ScratchOrgAlertNotificationDays__c }" onkeyup="enableUserSave()"/>
+            </apex:pageBlockSection>
+
+            <apex:pageBlockButtons id="saveSection" location="bottom">
+                <apex:commandButton id="saveButton" action="{! save }" value="{! $Label.ScratchOrgAlertSaveSettings }" status="mySaveStatus" oncomplete="disableUserSave()"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

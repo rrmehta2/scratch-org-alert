@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Scratch_Org_Alert_Recipient__c</fullName>
+    <fullName>ScratchOrgAlertRecipient__c</fullName>
     <description>The email address that is notified by the Scratch Org Alert app.</description>
     <externalId>false</externalId>
     <label>Scratch Org Alert Recipient</label>
