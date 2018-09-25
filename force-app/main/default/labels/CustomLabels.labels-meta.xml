@@ -33,14 +33,21 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>Displays the name of the Scratch Org being alerted about</shortDescription>
-        <value>Scratch Org Name</value>
+        <value>Org Name</value>
+    </labels>
+    <labels>
+        <fullName>SOAlertScratchOrgNumber</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Displays the number of the Active Scratch Org being alerted about</shortDescription>
+        <value>Scratch Org</value>
     </labels>
     <labels>
         <fullName>SOAlertSentFrom</fullName>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>Displays the Dev Hub that sent the alert email</shortDescription>
-        <value>Sent from Dev Hub: {0} with ID: {1}</value>
+        <value>Sent from Dev Hub</value>
     </labels>
     <labels>
         <fullName>SOAlertUsername</fullName>
@@ -68,7 +75,7 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>Days Before Expiration</shortDescription>
-        <value>Number of days before expiration to be alerted</value>
+        <value>Number of business days in advance to be alerted</value>
     </labels>
     <labels>
         <fullName>ScratchOrgAlertRecipient</fullName>

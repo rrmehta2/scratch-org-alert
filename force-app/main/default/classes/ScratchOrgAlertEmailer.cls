@@ -27,7 +27,7 @@ public with sharing class ScratchOrgAlertEmailer {
 
     public static Boolean sendEmails(Map<Id, String> recipients, List<ScratchOrgAlertEmail__c> alertEmails) {
         if (ScratchOrgAlert.isObjectAccessible(Schema.SObjectType.EmailTemplate, ScratchOrgAlert.EmailTemplateFields)) {
-            List<EmailTemplate> templates = [SELECT Id, Body FROM EmailTemplate WHERE DeveloperName = 'ScratchOrgAlert'];
+            List<EmailTemplate> templates = [SELECT Id, Body FROM EmailTemplate WHERE DeveloperName = 'ScratchOrgAlertTemplate'];
 
             if (templates.size() == 0) {
                 System.debug(LoggingLevel.ERROR, 'No templates returned by template query; you may not have permission to access the template.');

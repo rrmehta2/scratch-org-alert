@@ -75,7 +75,7 @@ public with sharing class ScratchOrgAlertSettingsController {
 
     public static List<CronJobDetail> getJobDetails() {
         if (ScratchOrgAlert.isObjectAccessible(Schema.SObjectType.CronJobDetail, ScratchOrgAlert.CronJobFields)) {
-            return [SELECT Id FROM CronJobDetail WHERE Name = 'Scratch Org Alert'];
+            return [SELECT Id FROM CronJobDetail WHERE Name = :ScratchOrgAlertScheduler.JOB_NAME];
         } else {
             return null;
         }

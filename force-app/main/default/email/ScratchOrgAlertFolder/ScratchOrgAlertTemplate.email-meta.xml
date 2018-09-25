@@ -4,7 +4,7 @@
     <available>true</available>
     <description>Notifies users when their Scratch Orgs are about to expire</description>
     <encodingKey>ISO-8859-1</encodingKey>
-    <name>ScratchOrgAlert</name>
+    <name>ScratchOrgAlertTemplate</name>
     <style>none</style>
     <subject>Scratch Org Alert: Your Scratch Org(s) are about to expire soon</subject>
     <type>visualforce</type>
